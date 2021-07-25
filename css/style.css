@@ -2,6 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: "poppins", sans-serif;
     }
     
     html {
@@ -17,7 +18,7 @@
     .navbar {
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(18, 19, 20);
         position: fixed;
         top: 0px;
         width: 100%;
@@ -56,7 +57,7 @@
         display: flex;
         flex-direction: column;
         background-color: rgba(0, 0, 0, 0.5);
-        height: 800px;
+        height: 100vh;
         width: 100vw;
         justify-content: center;
         color: rgb(255, 255, 255);
@@ -68,7 +69,7 @@
         top: 0;
         right: 0;
         background: url("../images/bg1.jpg") no-repeat center center/cover;
-        height: 800px;
+        min-height: 100vh;
         width: 100vw;
         z-index: -10;
     }
@@ -117,8 +118,8 @@
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 20px;
-        height: 100vh;
+        padding: 50px 0px;
+        min-height: 100vh;
         width: 100vw;
         background-color: rgb(80, 37, 20);
     }
@@ -135,6 +136,7 @@
         text-align: center;
         font-size: 2rem;
         padding: 1rem;
+        margin: 25px;
         color: rgb(219, 168, 0);
         text-decoration: underline;
     }
@@ -201,7 +203,9 @@
         margin-top: 0;
         background-color: rgb(10, 6, 6);
         z-index: 1;
-        width: 100%;
+        width: 100vw;
+        min-height: 100vh;
+        padding: 50px 0px;
     }
     
     .gal {
@@ -232,7 +236,7 @@
     
     .experience {
         width: 100vw;
-        height: 100vh;
+        min-height: 100vh;
         padding: 50px 0px;
         background-color: rgb(13, 15, 14);
         text-align: center;
@@ -278,43 +282,93 @@
     }
     
     .contactsection {
-        height: 800px;
-        background-color: rgb(19, 83, 139);
-    }
-    
-    .contactsection div h1 {
+        min-height: 100vh;
+        width: 100vw;
+        background-color: rgb(18, 19, 20);
+        padding: 50px 0px;
         text-align: center;
-        font-size: 2rem;
-        color: rgb(223, 136, 6);
-        padding: 10px;
     }
     
-    .contactsection .div1 p,
-    h3 {
-        font-size: 1.5rem;
-        width: 50%;
-        margin: auto;
-        color: rgb(255, 226, 226);
+    .con {
+        margin: 25px;
+        display: inline-block;
+        text-align: center;
+        height: 250px;
+        width: 250px;
+        margin-top: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(231, 10, 10);
+        vertical-align: middle;
     }
     
-    .contactsection .div2 {
-        margin: auto;
-        width: 50%;
-        margin-top: 40px;
+    .con .ph {
+        margin-top: 40%;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 1.2rem;
     }
     
-    .contactsection .div2 form input {
+    .con .phv {
+        color: rgba(255, 255, 255, 0.685);
+    }
+    
+    .con p {
+        padding: 5px;
+    }
+    
+    .form {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .form input {
         display: block;
-        width: 70%;
-        margin: 10px;
-        height: 30px;
+        margin: auto;
+    }
+    
+    #name,
+    #email,
+    #textarea,
+    #subject {
+        width: 40%;
+        margin-top: 10px;
+        padding: 13px;
+        background-color: #0f0f0f;
+        border-width: 0px;
+        outline: none;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+    }
+    
+    #textarea {
+        resize: none;
+    }
+    
+    #button {
+        padding: 15px;
+        margin-top: 10px;
+        background-color: #990f16;
+        border-width: 0px;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+    }
+    
+    #button:hover {
+        color: #990f16;
+        background-color: rgb(255, 255, 255);
     }
     
     footer {
+        padding: 25px;
+        height: auto;
         background-color: rgb(0, 0, 0);
+        text-align: center;
     }
     
     footer p {
         color: rgb(255, 255, 255);
-        text-align: center;
+        padding: 5px;
+        display: inline-block;
     }
