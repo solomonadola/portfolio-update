@@ -261,8 +261,7 @@
     }
     
     .skill:hover {
-        /* border: 2px solid black; */
-        box-shadow: 5px 5px green;
+        border-color: rgb(231, 10, 10);
     }
     
     .skill .skillcontainer {
