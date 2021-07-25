@@ -121,7 +121,7 @@
         padding: 50px 0px;
         min-height: 100vh;
         width: 100vw;
-        background-color: rgb(80, 37, 20);
+        background-color: #272727;
     }
     
     .pic {
@@ -137,7 +137,7 @@
         font-size: 2rem;
         padding: 1rem;
         margin: 25px;
-        color: rgb(219, 168, 0);
+        color: rgb(255, 255, 255);
         text-decoration: underline;
     }
     
@@ -221,10 +221,11 @@
     .gal .img {
         width: 270px;
         height: 250px;
-        border: 2px solid rgb(184, 0, 0);
+        border: 2px solid rgb(255, 255, 255);
         margin: 10px;
         display: inline-block;
         vertical-align: top;
+        border-radius: 15px;
     }
     
     .gal img {
@@ -245,9 +246,9 @@
     .experience .skill {
         width: 300px;
         height: 480px;
-        background-color: rgb(1, 2, 2);
+        background-color: rgb(18, 19, 20);
         margin: 10px;
-        border: 1px solid rgb(7, 184, 31);
+        border: 1px solid #ffffff;
         text-align: initial;
         border-radius: 15px;
         display: inline-block;
@@ -272,12 +273,12 @@
     .skillcontainer p {
         padding: 5px;
         font-size: 1.5rem;
-        color: rgb(231, 10, 10);
+        color: #cc4b00;
     }
     
     .skillcontainer h1 {
         padding: 10px;
-        color: rgb(0, 161, 62);
+        color: #fcfcfc;
         text-align: center;
     }
     
