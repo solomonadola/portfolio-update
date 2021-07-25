@@ -235,6 +235,10 @@
         margin-left: auto;
     }
     
+    .gal a:hover {
+        border-color: #29cc00;
+    }
+    
     .experience {
         width: 100vw;
         min-height: 100vh;
