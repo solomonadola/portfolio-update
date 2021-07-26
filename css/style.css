@@ -334,6 +334,7 @@
     #email,
     #textarea,
     #subject {
+        min-width: 300px;
         width: 40%;
         margin-top: 10px;
         padding: 13px;
@@ -369,6 +370,7 @@
         height: auto;
         background-color: rgb(0, 0, 0);
         text-align: center;
+        width: 100vw;
     }
     
     footer p {
